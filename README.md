@@ -196,10 +196,10 @@ If using this work in research:
 ```bibtex
 @software{gr_toy_lab,
   title = {GR Failure Manifold: A Diagnostic Test Suite for Classical General Relativity},
-  author = {[Your Name]},
-  year = {2025},
+  author = {[Sam DeRenzis]},
+  year = {2026},
   version = {1.1.0},
-  url = {https://github.com/[your-repo]/GR-Toy-Lab},
+  url = {https://github.com/waitandhope123/gr-failure-manifold/},
   note = {Systematic mapping and analysis of General Relativity failure modes}
 }
 ```
