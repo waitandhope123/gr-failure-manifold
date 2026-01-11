@@ -1,7 +1,9 @@
-GR TOY MODEL PROTOCOL (COPY INTO NEW CHAT)
+# GR Toy Model Protocol
 
-OBJECTIVE
+## Objective
+
 Build one General Relativity toy model per request that:
+
 - produces numerical results derived from physics (not placeholders),
 - is implemented in Python,
 - exports results to a JSON file,
@@ -10,50 +12,47 @@ Build one General Relativity toy model per request that:
 
 The goal is cataloging GR, not defending or embellishing it.
 
+## General Rules
 
-GENERAL RULES
+### 1. One toy per response
+- Each response produces exactly one Python toy model.
 
-1. One toy per response
-   - Each response produces exactly one Python toy model.
+### 2. Physics must be real
+- Use known GR or controlled approximations (Newtonian, linearized, FLRW, etc.).
+- Every numerical output must follow from equations.
+- If a quantity is undefined in some regime, return null explicitly.
 
-2. Physics must be real
-   - Use known GR or controlled approximations (Newtonian, linearized, FLRW, etc.).
-   - Every numerical output must follow from equations.
-   - If a quantity is undefined in some regime, return null explicitly.
+### 3. No symbolic-only toys
+- All toys must output numerical values at sample points.
 
-3. No symbolic-only toys
-   - All toys must output numerical values at sample points.
+### 4. Units
+- Default to geometric units: G = c = 1, unless explicitly stated otherwise.
 
-4. Units
-   - Default to geometric units: G = c = 1, unless explicitly stated otherwise.
-
-
-REQUIRED TOY STRUCTURE (PYTHON)
+## Required Toy Structure (Python)
 
 Each toy must include:
 
-A. Explicit assumptions
-   - spacetime / metric or equivalent
-   - symmetry
-   - matter content
-   - coordinate or gauge choices
-   - domain of validity
+### A. Explicit assumptions
+- spacetime / metric or equivalent
+- symmetry
+- matter content
+- coordinate or gauge choices
+- domain of validity
 
-B. Core physics implementation
-   - equations defining the model
-   - curvature invariants or equivalent diagnostics
-   - physically interpretable quantities
+### B. Core physics implementation
+- equations defining the model
+- curvature invariants or equivalent diagnostics
+- physically interpretable quantities
 
-C. Experiment-style observables
-   Examples:
-   - clock rate comparisons
-   - redshift
-   - light travel times
-   - tidal forces
-   - causal / horizon diagnostics
+### C. Experiment-style observables
+Examples:
+- clock rate comparisons
+- redshift
+- light travel times
+- tidal forces
+- causal / horizon diagnostics
 
-
-MANDATORY JSON EXPORT SCHEMA
+## Mandatory JSON Export Schema
 
 Every toy must export exactly these top-level keys:
 
@@ -80,20 +79,20 @@ Each entry in sample_points must follow this structure:
 - If a quantity is undefined, use null.
 - Do NOT omit keys.
 
-
-EXPORT RULES (STRICT)
+## Export Rules (Strict)
 
 - JSON only
 - One file per toy
 - Output filename MUST match the Python filename
-  Example:
-    toy_002_newtonian.py
-    toy_002_newtonian.json
+
+Example:
+toy_002_newtonian.py  
+toy_002_newtonian.json
+
 - The Python script must automatically derive the JSON filename from __file__
 - Deterministic output (no randomness unless requested)
 
-
-ALLOWED TOY CATEGORIES
+## Allowed Toy Categories
 
 - Exact GR solutions (Schwarzschild, Kerr, FLRW)
 - Limits of GR (Newtonian, linearized gravity)
@@ -102,8 +101,7 @@ ALLOWED TOY CATEGORIES
 - Energy localization diagnostics
 - Simplified cosmological models
 
-
-WHAT COUNTS AS A “WEAK POINT”
+## What Counts as a “Weak Point”
 
 A toy is valuable if it exposes:
 - coordinate dependence vs invariants
@@ -112,8 +110,7 @@ A toy is valuable if it exposes:
 - ambiguity in observables
 - mismatches between limits (e.g., Newtonian vs GR)
 
-
-WHAT THE ASSISTANT MUST NOT DO
+## What the Assistant Must Not Do
 
 - invent numerical values
 - change the export schema
@@ -121,15 +118,13 @@ WHAT THE ASSISTANT MUST NOT DO
 - output prose without code
 - rely on external data unless explicitly asked
 
-
-EXPECTED OUTPUT PER REQUEST
+## Expected Output Per Request
 
 1. Short explanation of what the toy probes
 2. One complete Python script
 3. Script writes a JSON file whose name matches the Python file
 
-
-HOW TO REQUEST THE NEXT TOY
+## How to Request the Next Toy
 
 Examples:
 - "Toy 002: Newtonian limit of gravity, same JSON export"
@@ -137,8 +132,7 @@ Examples:
 - "Toy 004: FLRW cosmology, redshift vs scale factor"
 - "Toy 005: Rindler spacetime equivalence principle test"
 
-
-END GOAL
+## End Goal
 
 After many toys, you should be able to:
 - diff outputs across models,
