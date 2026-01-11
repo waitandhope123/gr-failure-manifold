@@ -1,4 +1,4 @@
-# Speculation: What If We Have The Wrong Focus? (Derived from Claude)
+# Speculation: What If We Have The Wrong Focus? (Built Claude)
 
 ## Based on systematic analysis of GR Toy Lab failure patterns
 
