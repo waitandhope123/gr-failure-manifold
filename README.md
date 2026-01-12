@@ -109,7 +109,7 @@ Five systematic patterns emerge across the 64 toys:
 
 **Interpretation B (~25-30% confidence):** GR needs a **new model** at the same geometric level—modified equations (f(R) gravity, scalar-tensor theories) while keeping geometric framework.
 
-**See [`speculation.md`](speculation.md) for detailed analysis, evidence tables, research programs, and experimental predictions.**
+**See [`SPECULATION.md`](SPECULATION.md) for detailed analysis, evidence tables, research programs, and experimental predictions.**
 
 ---
 
