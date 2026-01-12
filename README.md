@@ -151,16 +151,16 @@ This lab is most useful for readers who already know GR and want to understand *
 ## Repository Contents
 ```
 GR-Toy-Lab/
-├── toys/                    # 64 executable pressure tests
-│   ├── phase_01/           # Geometry replaces force
-│   ├── phase_02/           # Horizons, coordinates, invariants
-│   ├── ...
-│   └── phase_10/           # Thickened failure manifold
-├── outputs/                 # JSON execution results
-├── COMPLETE_TOY_INDEX.md   # Full toy catalog with results
-├── protocol.md             # Construction and execution methodology
-├── speculation.md          # [v1.1.0] Pattern analysis & interpretations
-└── README.md               # This file
+├── toys/                    # Toy definitions, protocols, and execution assets
+│   ├── TOYS.md              # Index of available toy constructs
+│   ├── COMMANDS.md          # Execution commands / usage
+│   ├── TOY_PROTOCOL.md      # Toy-specific execution protocol
+│   └── Toys.zip             # Archived toy bundle
+├── protocol.md              # Construction and execution methodology
+├── speculation.md           # Pattern analysis & interpretations
+├── PROCESS.md               # Development process notes
+├── LICENSE
+└── README.md                # This file
 ```
 
 ---
