@@ -520,3 +520,68 @@ Emitters near the horizon:
 
 ### Toy 064 — Inhomogeneous shock formation
     python toy_064_inhomogeneous_shock.py
+---
+
+## Toys 065–070 — Geometry vs Information (Phase XI)
+
+### Toy 065 — Geometry saturation via quasilocal energy
+    python toy_065_geometry_saturation_quasilocal_energy.py
+
+Example with near-horizon sampling:
+    python toy_065_geometry_saturation_quasilocal_energy.py \
+      --M 1 \
+      --r 10,6,4,3,2.5,2.1
+
+---
+
+### Toy 066 — Unruh detector thermality (Rindler horizon)
+    python toy_066_unruh_detector_rindler_thermal.py
+
+Acceleration sweep:
+    python toy_066_unruh_detector_rindler_thermal.py \
+      --a_values 0,0.2,0.5,1.0 \
+      --omega 1.0
+
+---
+
+### Toy 067 — State ensemble stress tensor (Polyakov–Schwarzschild)
+    python toy_067_state_ensemble_polyakov_schwarzschild.py
+
+Near-horizon sampling:
+    python toy_067_state_ensemble_polyakov_schwarzschild.py \
+      --r 10,6,4,3,2.5,2.1
+
+---
+
+### Toy 068 — Hawking backreaction mass loss
+    python toy_068_hawking_backreaction_mass_loss.py
+
+Long-time evolution example:
+    python toy_068_hawking_backreaction_mass_loss.py \
+      --M0 5 \
+      --alpha 1e-4 \
+      --delta_alpha_frac 0.05 \
+      --M_min 1 \
+      --t_end 200000
+
+---
+
+### Toy 069 — Entanglement area-law analogue (flat lattice)
+    python toy_069_entanglement_area_law_flat_lattice.py
+
+Lattice scaling example:
+    python toy_069_entanglement_area_law_flat_lattice.py \
+      --N 8 \
+      --m 0.5 \
+      --L 1,2,3,4
+
+---
+
+### Toy 070 — Patchwork reconstruction failure
+    python toy_070_patchwork_reconstruction_failure.py
+
+Patch-size sweep:
+    python toy_070_patchwork_reconstruction_failure.py \
+      --N 8 \
+      --m 0.5 \
+      --L 1,2,3,4,6,8
