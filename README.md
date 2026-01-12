@@ -195,7 +195,7 @@ By Toy 70:
 ## Version History
 
 - **v1.1.2** — Addition of toys 65 to 70; updates to diagnostic findings and analysis
-- **v1.1.1** — Fixes README repository structure to match actual files and corrects a case-sensitive link to SPECULATION.md. 
+- **v1.1.1** — Fixes README repository structure to match actual files and corrects a case-sensitive link to SPECULATION.md
 - **v1.1.0** — Speculative analysis and emergence hypothesis
 - **v1.0.1** — Documentation and protocol formalization
 - **v1.0.0** — Initial failure manifold mapping (64 toys)
