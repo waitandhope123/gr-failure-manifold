@@ -1,4 +1,4 @@
-# GR Failure Manifold (Built by ChatGPT and rewritten by Claude for v1.1.1)
+# GR Failure Manifold (Built by ChatGPT and rewritten by Claude for v1.1.2)
 
 **A diagnostic test suite mapping the limits of classical General Relativity.**
 
@@ -14,7 +14,7 @@ The result is an explicit map of GR treated honestly as an **effective theory**.
 - A **boundary-mapping exercise**, not a refutation of GR
 - A collection of **minimal pressure tests** that isolate specific assumptions
 - A reproducible way to classify **failure triggers and failure modes**
-- **[v1.1.1]** A systematic analysis of what the **pattern of failures** reveals about GR's nature
+- **[v1.1.2]** A systematic analysis of what the **pattern of failures** reveals about GR's nature
 
 Each toy is intentionally simple and adversarial: it is designed to make a specific assumption of GR fail cleanly and observably.
 
@@ -78,7 +78,7 @@ Toy 70 (patchwork reconstruction failure from local data) is intentionally decla
 
 ---
 
-## v1.1.1: Pattern Analysis & Interpretation
+## v1.1.2: Pattern Analysis & Interpretation
 
 **New in this release:** Systematic analysis of failure manifold structure, expanded to 70 toys. The analysis includes toys 65-70, which introduce new insights into the failure modes of GR.
 
@@ -128,7 +128,7 @@ New additions (Toys 65-70) introduce additional complexity and nuance in underst
 - Exposes where test-particle and fixed-background approximations fail
 - Provides a baseline against which extensions of GR can be compared
 
-### For Theoretical Research (v1.1.1)
+### For Theoretical Research (v1.1.2)
 - Pattern analysis constrains what kind of theory GR is (fundamental vs. emergent)
 - Failure structure suggests research directions (holography, entanglement, causal sets)
 - Provides testable signatures for emergent spacetime hypotheses
@@ -146,7 +146,7 @@ This lab is most useful for readers who already know GR and want to understand *
 - **Diagnostic harness** for numerical or theoretical work
 - **Baseline** for comparing GR to semiclassical or modified theories
 
-### As a Research Framework (v1.1.1)
+### As a Research Framework (v1.1.2)
 - Test whether your theory resolves documented failure modes
 - Compare your theory's boundary structure to GR's failure manifold
 - Use pattern analysis to guide theoretical development
@@ -187,14 +187,14 @@ By Toy 70:
 **[v1.0] This project does not argue against General Relativity.**  
 **It shows exactly where and how it stops being a theory.**
 
-**[v1.1.1] The structure of that failure manifold suggests what kind of theory it is:**  
+**[v1.1.2] The structure of that failure manifold suggests what kind of theory it is:**  
 **An emergent effective description rather than a fundamental or nearly-fundamental one.**
 
 ---
 
 ## Version History
 
-- **v1.1.1** — Addition of toys 65 to 70; updates to diagnostic findings and analysis
+- **v1.1.2** — Addition of toys 65 to 70; updates to diagnostic findings and analysis
 - **v1.1.0** — Speculative analysis and emergence hypothesis
 - **v1.0.1** — Documentation and protocol formalization
 - **v1.0.0** — Initial failure manifold mapping (64 toys)
@@ -208,7 +208,7 @@ By Toy 70:
   title   = {GR Failure Manifold: A Diagnostic Test Suite for Classical General Relativity},
   author  = {DeRenzis, Sam},
   year    = {2026},
-  version = {1.1.1},
+  version = {1.1.2},
   url     = {https://github.com/waitandhope123/gr-failure-manifold},
   note    = {Systematic mapping and analysis of general relativity failure modes}
 }
