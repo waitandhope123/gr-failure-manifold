@@ -148,6 +148,7 @@ This lab is most useful for readers who already know GR and want to understand *
 
 ---
 
+```text
 GR-Toy-Lab/
 ├── toys/                    # Toy definitions and execution assets
 │   ├── COMMANDS.md          # Execution commands / usage
@@ -159,6 +160,7 @@ GR-Toy-Lab/
 ├── PROCESS.md               # Construction and execution methodology
 ├── README.md                # Repository overview
 └── SPECULATION.md           # Pattern analysis & interpretations
+```
 
 ---
 
