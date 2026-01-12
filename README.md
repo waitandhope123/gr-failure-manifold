@@ -80,34 +80,40 @@ Toy 70 (patchwork reconstruction failure from local data) is intentionally decla
 
 ## v1.1.1: Pattern Analysis & Interpretation
 
-**New in this release:** Systematic analysis of failure manifold structure, expanded to 70 toys.
-
-The v1.0 lab documented **where** GR breaks. Version 1.1 analyzes **what the pattern of breakage suggests** about GR's fundamental nature.
+**New in this release:** Systematic analysis of failure manifold structure, expanded to 70 toys. The analysis includes toys 65-70, which introduce new insights into the failure modes of GR.
 
 ### Key Findings
 
 Five systematic patterns emerge across the 70 toys:
 
 1. **Energy Non-Existence** (Toys 6, 46, 51, 55, 61)  
-   No invariant energy definition exists; multiple formulations disagree
+   No invariant energy definition exists; multiple formulations disagree.
 
 2. **Geometry Underdetermination** (Toy 61 — decisive evidence)  
-   Identical geometry → different physics depending on quantum state
+   Identical geometry → different physics depending on the quantum state.
 
 3. **Thick Failure Zones** (Phase X: Toys 38, 61, 62 + Category C)  
-   Gradual degradation, not sharp boundaries—characteristic of emergent theories
+   Gradual degradation, not sharp boundaries—characteristic of emergent theories.
 
 4. **Observer-Dependence** (7 independent toys: 5, 8, 24, 43, 47, 54, 56)  
-   Energy, horizons, time, distance all observer-relative beyond coordinate freedom
+   Energy, horizons, time, distance all observer-relative beyond coordinate freedom.
 
 5. **Entropy-Area Correspondence** (Toy 30)  
-   Geometric quantities behave as thermodynamic entropy
+   Geometric quantities behave as thermodynamic entropy.
+
+New additions (Toys 65-70) introduce additional complexity and nuance in understanding the failure modes:
+- **Toy 65** demonstrates that different formulations of quasi-local energy lead to non-unique energy definitions in fixed geometries, challenging the notion of a singular gravitational energy.
+- **Toy 66** reveals thermal behavior of Unruh detectors in non-curved spacetime, emphasizing that thermal effects can emerge without curvature, questioning the necessity of gravity for thermality.
+- **Toy 67** illustrates how identical geometries support varied semiclassical stress tensors depending on the quantum state, thereby reaffirming the role of information in determining physical outcomes.
+- **Toy 68** highlights the gradual mass loss in black holes under quasi-static conditions, indicating the potential breakdown of predictability associated with generalized states.
+- **Toy 69** presents area-law scaling of entanglement entropy in flat space suggesting that such scaling does not necessarily imply the presence of horizons, challenging traditional thermodynamic wisdom.
+- **Toy 70** shows how local data can misrepresent global states, reinforcing that local observations do not guarantee a coherent global physical description. 
 
 ### Two Interpretations
 
 **Interpretation A (~70-75% confidence):** GR has the **wrong focus**—geometry itself is emergent from non-geometric fundamental DOFs (entanglement, information, causality, or unknown). Analogous to thermodynamics emerging from statistical mechanics.
 
-**Interpretation B (~25-30% confidence):** GR needs a **new model** at the same geometric level—modified equations (f(R) gravity, scalar-tensor theories) while keeping geometric framework.
+**Interpretation B (~25-30% confidence):** GR needs a **new model** at the same geometric level—modified equations (f(R) gravity, scalar-tensor theories) while keeping the geometric framework.
 
 **See [`SPECULATION.md`](SPECULATION.md) for detailed analysis, evidence tables, research programs, and experimental predictions.**
 
@@ -147,6 +153,11 @@ This lab is most useful for readers who already know GR and want to understand *
 - Identify experimental signatures to test emergence hypothesis
 
 ---
+
+## Repository Contents
+
+---
+
 
 ```text
 GR-Toy-Lab/
@@ -192,8 +203,6 @@ By Toy 70:
 
 ## Citation
 
-If using this work in research:
-```bibtex
 @software{gr_toy_lab,
   title = {GR Failure Manifold: A Diagnostic Test Suite for Classical General Relativity},
   author = {[Sam DeRenzis]},
