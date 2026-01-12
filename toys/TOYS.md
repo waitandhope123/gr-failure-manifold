@@ -879,14 +879,115 @@ Shocks without curvature blow-up.
 
 ---
 
+## Phase XI — Geometry vs Information (New)
+
+### Toy 65 — Geometry saturation via quasilocal energy (Brown–York vs Misner–Sharp)
+- Failure Trigger: energetic  
+- Failure Mode: observer_disagreement  
+- Sharpness: contextual  
+- Repairable: no  
+- **Observed Results**:
+  - Schwarzschild vacuum: Ricci scalar remains zero; curvature (Kretschmann) depends only on r
+  - Misner–Sharp mass stays fixed at M_MS = 1.0 while Brown–York energy varies with radius
+  - E_BY − M_MS grows as r → 2M (e.g., ≈ 0.10 at r=6, ≈ 0.17 at r=4, ≈ 0.27 at r=3, ≈ 0.38 at r=2.5, ≈ 0.64 at r=2.1)
+
+Energy non-uniqueness on fixed geometry.  
+*Kills the idea of a single invariant “energy of the gravitational field.”*
+
+---
+
+### Toy 66 — Unruh detector thermality (Rindler horizon without curvature)
+- Failure Trigger: observer  
+- Failure Mode: observer_disagreement  
+- Sharpness: contextual  
+- Repairable: only_by_reinterpretation  
+- **Observed Results**:
+  - Minkowski invariants identically zero for all accelerations (no curvature)
+  - Acceleration introduces a Rindler horizon scale ~ 1/a (causal access changes without geometry changing)
+  - Detector response is thermal: detailed balance ratio matches exp(−ω/T) to numerical precision across a samples
+
+Thermality without curvature.  
+*Kills “temperature requires gravity/curvature.”*
+
+---
+
+### Toy 67 — State ensemble stress tensor on fixed Schwarzschild (Polyakov 2D toy)
+- Failure Trigger: state  
+- Failure Mode: observer_disagreement  
+- Sharpness: thick  
+- Repairable: no  
+- **Observed Results**:
+  - Same Schwarzschild geometry (fixed M) supports distinct semiclassical stress tensors across {Boulware, Hartle–Hawking, Unruh}
+  - Nonzero ensemble variances for stress components and static energy density at every sampled radius
+  - Variance strongly increases near the horizon (e.g., rho_static_variance ~ 7.6e−05 at r=2.1 vs ~ 1e−6 scale farther out)
+
+Same geometry, different physics.  
+*Kills “g_{μν} determines the physics.”*
+
+---
+
+### Toy 68 — Hawking backreaction mass loss (quasi-static evaporation with explicit UV cutoff)
+- Failure Trigger: state  
+- Failure Mode: predictability_loss  
+- Sharpness: thick  
+- Repairable: no  
+- **Observed Results**:
+  - Mass decreases monotonically (e.g., M=5.0 at t=0 → ~4.25 by t=160000 for the run parameters)
+  - Horizon radius shrinks with M (r_h = 2M), and horizon Kretschmann increases as M falls
+  - Sensitivity thickens: small delta_alpha produces growing ΔM, Δr_h over time (divergence grows as M decreases)
+  - Declared UV breakdown via explicit cutoff M_min; in this run the toy does not reach cutoff by t_end (time_to_cutoff = null)
+
+Backreaction thickens failure; GR has no UV rule.  
+*Kills “there is a sharp boundary where GR stops.”*
+
+---
+
+### Toy 69 — Area-law-like entanglement scaling in flat space (no horizons)
+- Failure Trigger: state  
+- Failure Mode: operational_undefined  
+- Sharpness: contextual  
+- Repairable: no  
+- **Observed Results**:
+  - Flat background: Ricci scalar and Kretschmann are exactly zero; horizons absent
+  - Entanglement entropy grows with region size, but S/(4L) is comparatively stable vs S/L^2 across samples
+  - Summary diagnostics explicitly show perimeter-scaling dominates over area-scaling in this lattice ground state
+
+Area-law behavior without gravity.  
+*Kills “entropy∼area implies horizons/thermodynamic gravity.”*
+
+---
+
+### Toy 70 — Patchwork reconstruction failure from local data (Gaussian lattice state)
+- Failure Trigger: operational  
+- Failure Mode: operational_undefined  
+- Sharpness: contextual  
+- Repairable: no  
+- **Observed Results**:
+  - Flat background invariants remain zero; failure is informational/operational, not geometric
+  - Naive “stitching” from local patches yields nonzero reconstruction errors that shrink with patch size:
+    - Example: L=2 gives relative Frobenius error ~ 0.195 (Cx) and violates physicality diagnostics
+    - L=4 still violates Heisenberg modewise (min eig(CxCp) < 0.25)
+    - Only full-size patch L=8 recovers the true covariance to ~ machine precision and restores modewise Heisenberg checks
+  - Key pressure point: near-perfect local agreement does not guarantee a globally consistent state
+
+Local data ≠ global state.  
+*Kills “patchwise observables determine the global physics.”*
+
 ## End State
 
-At Toy 64:
+At Toy 70:
 
 - Every failure trigger is sampled
 - Every failure mode is demonstrated
 - Failures are sharp, thick, and contextual
 - Classical GR is mapped as an **effective theory with a failure manifold**
+- The failure manifold is not eliminable by:
+  - saturating geometric data (Toy 65)
+  - fixing the observer (Toy 66)
+  - fixing the quantum state (Toy 67)
+  - invoking semiclassical backreaction (Toy 68)
+  - appealing to entropy–area arguments (Toy 69)
+  - reconstructing from local data (Toy 70)
 
 **This lab does not argue against GR.  
 It shows exactly where and how it stops being a theory.**
