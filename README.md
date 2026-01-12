@@ -204,12 +204,12 @@ By Toy 70:
 ## Citation
 
 @software{gr_toy_lab,
-  title   = {GR Failure Manifold: A Diagnostic Test Suite for Classical General Relativity},
-  author  = {DeRenzis, Sam},
-  year    = {2026},
+  title = {GR Failure Manifold: A Diagnostic Test Suite for Classical General Relativity},
+  author = {[Sam DeRenzis]},
+  year = {2026},
   version = {1.1.1},
-  url     = {https://github.com/waitandhope123/gr-failure-manifold},
-  note    = {Systematic mapping and analysis of general relativity failure modes}
+  url = {https://github.com/waitandhope123/gr-failure-manifold/},
+  note = {Systematic mapping and analysis of General Relativity failure modes}
 }
 
 License
