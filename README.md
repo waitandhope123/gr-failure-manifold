@@ -151,14 +151,13 @@ This lab is most useful for readers who already know GR and want to understand *
 ## Repository Contents
 ```
 GR-Toy-Lab/
-├── toys/                    # Toy definitions, protocols, and execution assets
-│   ├── TOYS.md              # Index of available toy constructs
+├── toys/                    # Toy definitions and execution assets
+│   ├── TOYS.md              # Index of toy constructs
 │   ├── COMMANDS.md          # Execution commands / usage
 │   ├── TOY_PROTOCOL.md      # Toy-specific execution protocol
 │   └── Toys.zip             # Archived toy bundle
-├── protocol.md              # Construction and execution methodology
-├── speculation.md           # Pattern analysis & interpretations
-├── PROCESS.md               # Development process notes
+├── PROCESS.md               # Construction and execution methodology
+├── SPECULATION.md           # Pattern analysis & interpretations
 ├── LICENSE
 └── README.md                # This file
 ```
