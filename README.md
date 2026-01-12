@@ -1,4 +1,4 @@
-# GR Failure Manifold (Built by ChatGPT and rewritten by Claude for v1.1.0)
+# GR Failure Manifold (Built by ChatGPT and rewritten by Claude for v1.1.1)
 
 **A diagnostic test suite mapping the limits of classical General Relativity.**
 
@@ -14,7 +14,7 @@ The result is an explicit map of GR treated honestly as an **effective theory**.
 - A **boundary-mapping exercise**, not a refutation of GR
 - A collection of **minimal pressure tests** that isolate specific assumptions
 - A reproducible way to classify **failure triggers and failure modes**
-- **[v1.1.0]** A systematic analysis of what the **pattern of failures** reveals about GR's nature
+- **[v1.1.1]** A systematic analysis of what the **pattern of failures** reveals about GR's nature
 
 Each toy is intentionally simple and adversarial: it is designed to make a specific assumption of GR fail cleanly and observably.
 
@@ -33,7 +33,7 @@ Nothing here contradicts the Einstein equations. Instead, the lab shows **where 
 
 ## Structure of the lab
 
-The lab consists of **64 toys**, grouped into phases that reflect increasingly global or subtle limits of the theory:
+The lab consists of **70 toys**, grouped into phases that reflect increasingly global or subtle limits of the theory:
 
 1. Geometry vs force
 2. Horizons, coordinates, and invariants
@@ -74,19 +74,19 @@ All executed toys include **machine-readable JSON outputs** encoding observed re
 - Instability thresholds
 - Ensemble spread (for stochastic/state-dependent cases)
 
-Toy 50 (cross-toy comparator) is intentionally declared but **not executed**.
+Toy 70 (patchwork reconstruction failure from local data) is intentionally declared but **not executed**.
 
 ---
 
-## v1.1.0: Pattern Analysis & Interpretation
+## v1.1.1: Pattern Analysis & Interpretation
 
-**New in this release:** Systematic analysis of failure manifold structure.
+**New in this release:** Systematic analysis of failure manifold structure, expanded to 70 toys.
 
-The v1.0 lab documented **where** GR breaks. Version 1.1.0 analyzes **what the pattern of breakage suggests** about GR's fundamental nature.
+The v1.0 lab documented **where** GR breaks. Version 1.1 analyzes **what the pattern of breakage suggests** about GR's fundamental nature.
 
 ### Key Findings
 
-Five systematic patterns emerge across the 64 toys:
+Five systematic patterns emerge across the 70 toys:
 
 1. **Energy Non-Existence** (Toys 6, 46, 51, 55, 61)  
    No invariant energy definition exists; multiple formulations disagree
@@ -122,7 +122,7 @@ Five systematic patterns emerge across the 64 toys:
 - Exposes where test-particle and fixed-background approximations fail
 - Provides a baseline against which extensions of GR can be compared
 
-### For Theoretical Research (v1.1.0)
+### For Theoretical Research (v1.1.1)
 - Pattern analysis constrains what kind of theory GR is (fundamental vs. emergent)
 - Failure structure suggests research directions (holography, entanglement, causal sets)
 - Provides testable signatures for emergent spacetime hypotheses
@@ -140,7 +140,7 @@ This lab is most useful for readers who already know GR and want to understand *
 - **Diagnostic harness** for numerical or theoretical work
 - **Baseline** for comparing GR to semiclassical or modified theories
 
-### As a Research Framework (v1.1.0)
+### As a Research Framework (v1.1.1)
 - Test whether your theory resolves documented failure modes
 - Compare your theory's boundary structure to GR's failure manifold
 - Use pattern analysis to guide theoretical development
@@ -148,25 +148,23 @@ This lab is most useful for readers who already know GR and want to understand *
 
 ---
 
-## Repository Contents
-```
 GR-Toy-Lab/
 ├── toys/                    # Toy definitions and execution assets
-│   ├── TOYS.md              # Index of toy constructs
 │   ├── COMMANDS.md          # Execution commands / usage
+│   ├── README.md            # Toys folder overview
+│   ├── TOYS.md              # Index of toy constructs
 │   ├── TOY_PROTOCOL.md      # Toy-specific execution protocol
 │   └── Toys.zip             # Archived toy bundle
+├── LICENSE                  # License information
 ├── PROCESS.md               # Construction and execution methodology
-├── SPECULATION.md           # Pattern analysis & interpretations
-├── LICENSE
-└── README.md                # This file
-```
+├── README.md                # Repository overview
+└── SPECULATION.md           # Pattern analysis & interpretations
 
 ---
 
 ## End state
 
-By Toy 64:
+By Toy 70:
 
 - Every major failure trigger is sampled
 - Every major failure mode is demonstrated
@@ -176,14 +174,15 @@ By Toy 64:
 **[v1.0] This project does not argue against General Relativity.**  
 **It shows exactly where and how it stops being a theory.**
 
-**[v1.1.0] The structure of that failure manifold suggests what kind of theory it is:**  
+**[v1.1.1] The structure of that failure manifold suggests what kind of theory it is:**  
 **An emergent effective description rather than a fundamental or nearly-fundamental one.**
 
 ---
 
 ## Version History
 
-- **v1.1.0** (Current) — Speculative analysis and emergence hypothesis
+- **v1.1.1** — Addition of toys 65 to 70; updates to diagnostic findings and analysis
+- **v1.1.0** — Speculative analysis and emergence hypothesis
 - **v1.0.1** — Documentation and protocol formalization
 - **v1.0.0** — Initial failure manifold mapping (64 toys)
 
@@ -197,14 +196,11 @@ If using this work in research:
   title = {GR Failure Manifold: A Diagnostic Test Suite for Classical General Relativity},
   author = {[Sam DeRenzis]},
   year = {2026},
-  version = {1.1.0},
+  version = {1.1.1},
   url = {https://github.com/waitandhope123/gr-failure-manifold/},
   note = {Systematic mapping and analysis of General Relativity failure modes}
 }
-```
 
----
-
-## License
+License
 
 MIT
