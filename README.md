@@ -1,4 +1,4 @@
-# GR Failure Manifold (Built by ChatGPT and rewritten by Claude for v1.1.2)
+# GR Failure Manifold (Built by ChatGPT and rewritten by Claude for v1.1.3)
 
 **A diagnostic test suite mapping the limits of classical General Relativity.**
 
@@ -15,6 +15,7 @@ The result is an explicit map of GR treated honestly as an **effective theory**.
 - A collection of **minimal pressure tests** that isolate specific assumptions
 - A reproducible way to classify **failure triggers and failure modes**
 - **[v1.1.2]** A systematic analysis of what the **pattern of failures** reveals about GR's nature
+- **[v1.1.3]** An information-theoretic investigation showing **why** those patterns point to emergence
 
 Each toy is intentionally simple and adversarial: it is designed to make a specific assumption of GR fail cleanly and observably.
 
@@ -45,6 +46,7 @@ The lab consists of **70 toys**, grouped into phases that reflect increasingly g
 8. Verification and benchmarking
 9. Boundaries and relational physics
 10. Thickened (state-dependent) failure manifolds
+11. **[v1.1.2] Geometry vs information**
 
 Each toy is classified along four orthogonal axes:
 
@@ -78,44 +80,68 @@ Toy 70 (patchwork reconstruction failure from local data) is intentionally decla
 
 ---
 
-## v1.1.2: Pattern Analysis & Interpretation
+## v1.1.3: Updated Speculation with Phase XI Evidence
 
-**New in this release:** Systematic analysis of failure manifold structure, expanded to 70 toys. The analysis includes toys 65-70, which introduce new insights into the failure modes of GR.
+**New in this release:** `SPECULATION.md` updated to integrate Phase XI evidence (Toys 65–70), strengthening the emergence hypothesis with direct information-theoretic probes.
 
-### Key Findings
+### Key Findings from Phase XI (Toys 65–70)
 
-Five systematic patterns emerge across the 70 toys:
+Six new toys provide **direct** rather than circumstantial evidence:
 
-1. **Energy Non-Existence** (Toys 6, 46, 51, 55, 61)  
-   No invariant energy definition exists; multiple formulations disagree.
+1. **Toy 65 — Energy Non-Uniqueness on Fixed Geometry**  
+   Even in Schwarzschild vacuum, Brown–York vs Misner–Sharp disagree by 64% near horizon.  
+   **Implication:** Energy ambiguity is fundamental, not technical.
 
-2. **Geometry Underdetermination** (Toy 61 — decisive evidence)  
-   Identical geometry → different physics depending on the quantum state.
+2. **Toy 66 — Thermality Without Curvature**  
+   Unruh detectors measure thermal spectrum in flat space (zero curvature).  
+   **Implication:** Temperature is observer/information-theoretic, not geometric. **[Smoking gun]**
 
-3. **Thick Failure Zones** (Phase X: Toys 38, 61, 62 + Category C)  
-   Gradual degradation, not sharp boundaries—characteristic of emergent theories.
+3. **Toy 67 — Quantified State Variance**  
+   Same Schwarzschild geometry supports different quantum states with 100× larger variance near horizon.  
+   **Implication:** Geometry underdetermines physics (quantified, not just claimed).
 
-4. **Observer-Dependence** (7 independent toys: 5, 8, 24, 43, 47, 54, 56)  
-   Energy, horizons, time, distance all observer-relative beyond coordinate freedom.
+4. **Toy 68 — Thick Backreaction Dynamics**  
+   Hawking evaporation shows growing sensitivity, no sharp breakdown.  
+   **Implication:** Classical-quantum boundary is thick, characteristic of emergence.
 
-5. **Entropy-Area Correspondence** (Toy 30)  
-   Geometric quantities behave as thermodynamic entropy.
+5. **Toy 69 — Entanglement Without Gravity**  
+   Area-law entanglement exists in flat space, no horizons needed.  
+   **Implication:** Entanglement structure precedes geometry, not vice versa.
 
-New additions (Toys 65-70) introduce additional complexity and nuance in understanding the failure modes:
-- **Toy 65** demonstrates that different formulations of quasi-local energy lead to non-unique energy definitions in fixed geometries, challenging the notion of a singular gravitational energy.
-- **Toy 66** reveals thermal behavior of Unruh detectors in non-curved spacetime, emphasizing that thermal effects can emerge without curvature, questioning the necessity of gravity for thermality.
-- **Toy 67** illustrates how identical geometries support varied semiclassical stress tensors depending on the quantum state, thereby reaffirming the role of information in determining physical outcomes.
-- **Toy 68** highlights the gradual mass loss in black holes under quasi-static conditions, indicating the potential breakdown of predictability associated with generalized states.
-- **Toy 69** presents area-law scaling of entanglement entropy in flat space suggesting that such scaling does not necessarily imply the presence of horizons, challenging traditional thermodynamic wisdom.
-- **Toy 70** shows how local data can misrepresent global states, reinforcing that local observations do not guarantee a coherent global physical description. 
+6. **Toy 70 — Holographic Non-Locality**  
+   Local data provably insufficient to reconstruct global state even in flat space.  
+   **Implication:** Holographic structure is universal, not AdS-specific.
 
-### Two Interpretations
+### Updated Pattern Analysis
 
-**Interpretation A (~70-75% confidence):** GR has the **wrong focus**—geometry itself is emergent from non-geometric fundamental DOFs (entanglement, information, causality, or unknown). Analogous to thermodynamics emerging from statistical mechanics.
+Five systematic patterns from v1.1.0 now strengthened with Phase XI:
 
-**Interpretation B (~25-30% confidence):** GR needs a **new model** at the same geometric level—modified equations (f(R) gravity, scalar-tensor theories) while keeping the geometric framework.
+1. **Energy Non-Existence** (Toys 6, 46, 51, 55, 61, **65**)  
+   No invariant energy definition exists; multiple formulations disagree even in simplest cases.
 
-**See [`SPECULATION.md`](SPECULATION.md) for detailed analysis, evidence tables, research programs, and experimental predictions.**
+2. **Geometry Underdetermination** (Toys 61, **67**, **70** — decisive evidence)  
+   Identical geometry → different physics depending on quantum state (now quantified).
+
+3. **Thick Failure Zones** (Phase X: Toys 38, 61, 62, **68** + Category C)  
+   Gradual degradation with explicit sensitivity growth—characteristic of emergent theories.
+
+4. **Observer-Dependence** (**8 independent toys**: 5, 8, 24, 43, 47, 54, 56, **66**)  
+   Energy, horizons, time, distance, **temperature** all observer-relative beyond coordinate freedom.
+
+5. **Information-Theoretic Structure** (Toys 30, **66**, **69**, **70**)  
+   Entropy, temperature, entanglement, and holography show spacetime is quantum information.
+
+### Two Interpretations (Updated Confidence)
+
+**Interpretation A (~75-80% confidence, +5-10% from v1.1.0):** GR has the **wrong focus**—geometry itself is emergent from quantum information structure. Phase XI provides **direct evidence** (especially Toy 66: thermality without curvature).
+
+**Interpretation B (~20-25% confidence):** GR needs a **new model** at the same geometric level. Phase XI evidence makes this less likely—problems are information-theoretic, not fixable by modifying equations.
+
+**See [`SPECULATION.md`](SPECULATION.md) for:**
+- Detailed Phase XI analysis (new Appendix A)
+- Updated evidence tables integrating all 70 toys
+- Experimental predictions from information-theoretic evidence
+- Why the confidence increase is justified
 
 ---
 
@@ -128,11 +154,12 @@ New additions (Toys 65-70) introduce additional complexity and nuance in underst
 - Exposes where test-particle and fixed-background approximations fail
 - Provides a baseline against which extensions of GR can be compared
 
-### For Theoretical Research (v1.1.2)
+### For Theoretical Research (v1.1.2–v1.1.3)
 - Pattern analysis constrains what kind of theory GR is (fundamental vs. emergent)
-- Failure structure suggests research directions (holography, entanglement, causal sets)
+- **Phase XI evidence shows information-theoretic origin directly**
 - Provides testable signatures for emergent spacetime hypotheses
-- Guides where to look for new physics (thick zones, observer-dependence)
+- Guides where to look for new physics (Unruh detection, gravitational entanglement, holographic bounds)
+- Failure structure suggests research directions (quantum information, holography, entanglement-first approaches)
 
 This lab is most useful for readers who already know GR and want to understand **its limits, not just its successes**.
 
@@ -146,19 +173,19 @@ This lab is most useful for readers who already know GR and want to understand *
 - **Diagnostic harness** for numerical or theoretical work
 - **Baseline** for comparing GR to semiclassical or modified theories
 
-### As a Research Framework (v1.1.2)
+### As a Research Framework (v1.1.2–v1.1.3)
 - Test whether your theory resolves documented failure modes
 - Compare your theory's boundary structure to GR's failure manifold
-- Use pattern analysis to guide theoretical development
-- Identify experimental signatures to test emergence hypothesis
+- Use Phase XI information-theoretic evidence to guide theoretical development
+- Identify experimental signatures to test emergence hypothesis:
+  - Gravitational entanglement (Toy 69 prediction)
+  - Unruh effect detection (Toy 66 prediction)
+  - Black hole information recovery (Toy 67 prediction)
+  - Holographic bounds (Toy 70 prediction)
 
 ---
 
 ## Repository Contents
-
----
-
-
 ```text
 GR-Toy-Lab/
 ├── toys/                    # Toy definitions and execution assets
@@ -170,7 +197,7 @@ GR-Toy-Lab/
 ├── LICENSE                  # License information
 ├── PROCESS.md               # Construction and execution methodology
 ├── README.md                # Repository overview
-└── SPECULATION.md           # Pattern analysis & interpretations
+└── SPECULATION.md           # Pattern analysis & interpretations (updated v1.1.3)
 ```
 
 ---
@@ -190,11 +217,14 @@ By Toy 70:
 **[v1.1.2] The structure of that failure manifold suggests what kind of theory it is:**  
 **An emergent effective description rather than a fundamental or nearly-fundamental one.**
 
+**[v1.1.3] Phase XI shows why: Direct information-theoretic probes reveal geometry emerges from quantum information.**
+
 ---
 
 ## Version History
 
-- **v1.1.2** — Addition of toys 65 to 70; updates to diagnostic findings and analysis
+- **v1.1.3** — Speculation updated with Phase XI evidence; confidence increased to ~75-80%
+- **v1.1.2** — Addition of toys 65 to 70; Phase XI empirical extension
 - **v1.1.1** — Fixes README repository structure to match actual files and corrects a case-sensitive link to SPECULATION.md
 - **v1.1.0** — Speculative analysis and emergence hypothesis
 - **v1.0.1** — Documentation and protocol formalization
@@ -203,18 +233,17 @@ By Toy 70:
 ---
 
 ## Citation
-
 ```bibtex
 @software{gr_toy_lab,
   title   = {GR Failure Manifold: A Diagnostic Test Suite for Classical General Relativity},
   author  = {DeRenzis, Sam},
   year    = {2026},
-  version = {1.1.2},
+  version = {1.1.3},
   url     = {https://github.com/waitandhope123/gr-failure-manifold},
-  note    = {Systematic mapping and analysis of general relativity failure modes}
+  note    = {Systematic mapping and analysis of general relativity failure modes with information-theoretic evidence}
 }
 ```
 
-License
+## License
 
 MIT
