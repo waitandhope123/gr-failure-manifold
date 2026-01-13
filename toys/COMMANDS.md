@@ -585,3 +585,99 @@ Patch-size sweep:
       --N 8 \
       --m 0.5 \
       --L 1,2,3,4,6,8
+
+## Toys 071–080 — Quantum Observers & Emergent Causality
+
+### Toy 071 — Cosmological horizon complementarity (de Sitter)
+    python toy_071_desitter_horizon_complementarity.py
+
+Static vs comoving observers:
+    python toy_071_desitter_horizon_complementarity.py \
+      --Lambda 0.1 \
+      --observer static,comoving
+
+---
+
+### Toy 072 — Vacuum energy catastrophe
+    python toy_072_vacuum_energy_catastrophe.py
+
+With cutoff comparison:
+    python toy_072_vacuum_energy_catastrophe.py \
+      --cutoff planck,gev,tev
+
+---
+
+### Toy 073 — Big Bang singularity (FLRW)
+    python toy_073_flrw_big_bang_singularity.py
+
+Matter vs radiation:
+    python toy_073_flrw_big_bang_singularity.py \
+      --model matter,radiation \
+      --t 0.001,0.01,0.1,1
+
+---
+
+### Toy 074 — Quantum observer superposition
+    python toy_074_quantum_observer_superposition.py
+
+Branch comparison:
+    python toy_074_quantum_observer_superposition.py \
+      --branches 2 \
+      --metric flat,schwarzschild
+
+---
+
+### Toy 075 — Quantum clock time dilation
+    python toy_075_quantum_clock_time_dilation.py
+
+Velocity superposition:
+    python toy_075_quantum_clock_time_dilation.py \
+      --v 0.3,0.6,0.9
+
+---
+
+### Toy 076 — Causal structure from entanglement
+    python toy_076_causality_from_entanglement.py
+
+Multiple DAG reconstructions:
+    python toy_076_causality_from_entanglement.py \
+      --nodes 6 \
+      --samples 100
+
+---
+
+### Toy 077 — Light cone superposition
+    python toy_077_light_cone_superposition.py
+
+Emission superposition:
+    python toy_077_light_cone_superposition.py \
+      --positions -1,0,1 \
+      --t_emit 0
+
+---
+
+### Toy 078 — Page–Wootters time emergence
+    python toy_078_page_wootters_time.py
+
+Different clock factorizations:
+    python toy_078_page_wootters_time.py \
+      --clocks A,B,C
+
+---
+
+### Toy 079 — Thermal time hypothesis
+    python toy_079_thermal_time_hypothesis.py
+
+Equilibrium vs non-equilibrium:
+    python toy_079_thermal_time_hypothesis.py \
+      --state thermal,quenched
+
+---
+
+### Toy 080 — Black hole complementarity violation (firewall proxy)
+    python toy_080_firewall_complementarity_violation.py
+
+Near-horizon comparison:
+    python toy_080_firewall_complementarity_violation.py \
+      --observer static,infalling \
+      --r 2.1,2.01,2.001
