@@ -16,10 +16,6 @@ This directory contains the executed diagnostic artifacts for the
   Formal protocol defining how each toy is constructed, what constraints
   it must satisfy, and how results are exported.
 
-- **PROCESS.md**  
-  Documentation of the overall workflow used to build, validate, and
-  curate the toy suite.
-
 - **Toys.zip**  
   Archive containing all executed toy JSON files.
   Each JSON encodes parameters, observables, and detected failure signals
