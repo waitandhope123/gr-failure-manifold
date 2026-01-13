@@ -973,12 +973,143 @@ Area-law behavior without gravity.
 Local data ≠ global state.  
 *Kills “patchwise observables determine the global physics.”*
 
+## Phase XII — Quantum Observers & Emergent Causality
+
+### Toy 71 — Cosmological Horizon Complementarity (de Sitter)
+- Failure Trigger: observer
+- Failure Mode: observer_disagreement
+- Sharpness: contextual
+- Repairable: only_by_reinterpretation
+- **Observed Results**:
+  - Same Λ gives same horizon radius, different observers detect different particle content
+  - Static observers see thermality; Bunch–Davies observers do not
+  - Thermality is observer-conditional
+
+*Kills “Horizon thermality is black-hole-specific.”*
+
+---
+
+### Toy 72 — Vacuum Energy Catastrophe
+- Failure Trigger: matter
+- Failure Mode: energy_nonconservation
+- Sharpness: sharp
+- Repairable: no
+- **Observed Results**:
+  - QFT vacuum energy exceeds observed Λ by ~10¹²⁰
+  - No classical geometric counterterm absorbs mismatch
+
+*Kills “Quantum fields and gravity are compatible.”*
+
+---
+
+### Toy 73 — Big Bang Singularity (FLRW)
+- Failure Trigger: geometric
+- Failure Mode: invariant_divergence + predictability_loss
+- Sharpness: sharp
+- Repairable: no
+- **Observed Results**:
+  - Ricci and Kretschmann invariants diverge as a(t) → 0
+  - Energy density diverges; no geometric initial data
+
+*Kills “Time has a well-defined beginning.”*
+
+---
+
+### Toy 74 — Quantum Observer Superposition
+- Failure Trigger: observer (quantum)
+- Failure Mode: operational_undefined
+- Sharpness: contextual
+- Repairable: no
+- **Observed Results**:
+  - Distinct branch metrics exist
+  - No unique metric for superposed observer
+
+*Kills “Observers are external to spacetime.”*
+
+---
+
+### Toy 75 — Quantum Clock Time Dilation
+- Failure Trigger: observer (quantum)
+- Failure Mode: observer_disagreement
+- Sharpness: contextual
+- Repairable: no
+- **Observed Results**:
+  - Each branch has definite proper time
+  - Superposed clock has no unique elapsed time
+
+*Kills “Proper time is observer-independent once the worldline is specified.”*
+
+---
+
+### Toy 76 — Causal Structure from Entanglement
+- Failure Trigger: state
+- Failure Mode: operational_undefined
+- Sharpness: contextual
+- Repairable: no
+- **Observed Results**:
+  - Same entanglement graph supports multiple causal DAGs
+  - Causal orientation underdetermined
+
+*Kills “Causal structure is fundamental.”*
+
+---
+
+### Toy 77 — Light Cone Superposition
+- Failure Trigger: causal + state
+- Failure Mode: predictability_loss
+- Sharpness: sharp
+- Repairable: no
+- **Observed Results**:
+  - Superposed emission points yield multiple future cones
+  - No unique causal future without measurement
+
+*Kills “Light cones are observer-independent geometric objects.”*
+
+---
+
+### Toy 78 — Page–Wootters Time Emergence
+- Failure Trigger: observer + state
+- Failure Mode: observer_disagreement
+- Sharpness: thick
+- Repairable: only_by_reinterpretation
+- **Observed Results**:
+  - Different clock factorizations give different dynamics
+  - Time is relational
+
+*Kills “Time is fundamental.”*
+
+---
+
+### Toy 79 — Thermal Time Hypothesis
+- Failure Trigger: energetic + observer
+- Failure Mode: operational_undefined
+- Sharpness: contextual
+- Repairable: no
+- **Observed Results**:
+  - Modular time aligns with H only in equilibrium
+  - Non-equilibrium states yield state-dependent time
+
+*Kills “Time exists independently of matter.”*
+
+---
+
+### Toy 80 — Black Hole Complementarity Violation (Firewall Proxy)
+- Failure Trigger: observer + state
+- Failure Mode: observer_disagreement
+- Sharpness: sharp
+- Repairable: no
+- **Observed Results**:
+  - Static observers see diverging near-horizon energy density
+  - Infalling observers expect vacuum
+
+*Kills “Local physics is observer-independent.”*
+
 ## End State
 
 At Toy 70:
 
-- Every failure trigger is sampled
-- Every failure mode is demonstrated
+- Every classical failure trigger is sampled
+- Every classical failure mode is demonstrated
 - Failures are sharp, thick, and contextual
 - Classical GR is mapped as an **effective theory with a failure manifold**
 - The failure manifold is not eliminable by:
@@ -989,5 +1120,23 @@ At Toy 70:
   - appealing to entropy–area arguments (Toy 69)
   - reconstructing from local data (Toy 70)
 
-**This lab does not argue against GR.  
-It shows exactly where and how it stops being a theory.**
+At Toy 80:
+
+- Observer-independence itself fails
+- Causal structure becomes non-unique
+- Proper time becomes branch-dependent
+- Time becomes relational and state-dependent
+- Local physics becomes observer-conditional
+- No unique notion of geometry, causality, or time survives quantization of observers
+
+The failure manifold **does not close** under:
+- quantum observers (Toys 74, 75)
+- entanglement-first reconstruction (Toy 76)
+- superposed causal sources (Toy 77)
+- relational time emergence (Toy 78)
+- thermodynamic time definitions (Toy 79)
+- black hole complementarity (Toy 80)
+
+**This lab does not argue against General Relativity.  
+It shows precisely where it becomes an effective description —  
+and where the notion of spacetime itself ceases to be well-defined.**
