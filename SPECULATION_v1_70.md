@@ -198,7 +198,7 @@ GR-Toy-Lab/
 ├── PROCESS.md               # Construction and execution methodology
 ├── README.md                # Repository overview
 ├── SPECULATION_v1_64.md     # Pattern analysis & interpretations (updated v1.1.2)
-└── SPECULATION_v1_70.md           # Pattern analysis & interpretations (updated v1.1.3)
+└── SPECULATION_v1_70.md     # Pattern analysis & interpretations (updated v1.1.3)
 ```
 
 ---
