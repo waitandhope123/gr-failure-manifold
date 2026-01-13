@@ -137,7 +137,7 @@ Five systematic patterns from v1.1.0 now strengthened with Phase XI:
 
 **Interpretation B (~20-25% confidence):** GR needs a **new model** at the same geometric level. Phase XI evidence makes this less likely—problems are information-theoretic, not fixable by modifying equations.
 
-**See [`SPECULATION.md`](SPECULATION.md) for:**
+**See [`SPECULATION_v1_70toys.md`](SPECULATION.md) for:**
 - Detailed Phase XI analysis (new Appendix A)
 - Updated evidence tables integrating all 70 toys
 - Experimental predictions from information-theoretic evidence
