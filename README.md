@@ -196,7 +196,7 @@ GR needs corrections at same level (modified gravity).
 
 **Total emergence confidence (A1 + A2): ~80-85%**
 
-**See [`SPECULATION.md`](SPECULATION.md) for:**
+**See [`SPECULATION/README.md`](SPECULATION/README.md) for:**
 - Complete Phase XII analysis (new section + Appendix H)
 - Detailed toy-by-toy breakdowns (Toys 71-80)
 - Updated evidence tables through 80 toys
