@@ -172,9 +172,9 @@ Emergent: Spacetime + quantum fields + observers + time + causality
 
 | Evidence Type | Toy Count | Phase | Confidence |
 |---------------|-----------|-------|------------|
-| Energy failures | 8 | I-XII | Very high |
+| Energy failures | 9 | I-XII | Very high |
 | Geometry underdetermination | 6 | X-XI | Very high |
-| Observer-dependence | 18 | I-XII | Very high |
+| Observer-dependence | 19 | I-XII | Very high |
 | Information-theoretic | 6 | XI | High |
 | **QFT-GR incompatibility** | **1** | **XII** | **Very high (Toy 72)** |
 | **Observer ontology breakdown** | **4** | **XII** | **High** |
