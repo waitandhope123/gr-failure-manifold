@@ -257,22 +257,32 @@ This lab is most useful for readers who already know GR and want to understand *
 
 ---
 
-## Repository Contents
-```text
 GR-Toy-Lab/
-├── toys/                    # Toy definitions and execution assets
-│   ├── COMMANDS.md          # Execution commands / usage
-│   ├── README.md            # Toys folder overview
-│   ├── TOYS.md              # Index of toy constructs (updated to 80 toys)
-│   ├── TOY_PROTOCOL.md      # Toy-specific execution protocol
-│   └── Toys.zip             # Archived toy bundle
-├── LICENSE                  # License information
-├── PROCESS.md               # Construction and execution methodology
-├── README.md                # Repository overview (this file)
-├── SPECULATION_v1_64.md     # Pattern analysis v1.1.2 (64 toys)
-├── SPECULATION_v1_70.md     # Pattern analysis v1.1.3 (70 toys)
-└── SPECULATION.md           # Pattern analysis v1.1.4 (80 toys) — CURRENT
-```
+├── SPECULATION/                 # Speculative framework and evidence corpus
+│   ├── 00-OVERVIEW.md
+│   ├── 01-INTERPRETATIONS.md
+│   ├── 02-ENERGY-EVIDENCE.md
+│   ├── 03-GEOMETRY-EVIDENCE.md
+│   ├── 04-OBSERVER-EVIDENCE.md
+│   ├── 05-QUANTUM-BREAKDOWN.md
+│   ├── 06-PHASE-XIII-EVIDENCE.md
+│   ├── 07-ANALOGIES.md
+│   ├── 08-IMPLICATIONS.md
+│   ├── 09-CONFIDENCE.md
+│   ├── 10-NATURE-OF-REALITY.md
+│   ├── README.md
+│   ├── SPECULATION_v1_64.md
+│   ├── SPECULATION_v1_70.md
+│   └── SPECULATION_v1_80.md     # Latest consolidated version
+├── toys/                        # Toy definitions and execution assets
+│   ├── COMMANDS.md              # Execution commands / usage
+│   ├── README.md                # Toys folder overview
+│   ├── TOYS.md                  # Index of toy constructs
+│   ├── TOY_PROTOCOL.md          # Toy-specific execution protocol
+│   └── Toys.zip                 # Archived toy bundle
+├── LICENSE                      # License information
+├── PROCESS.md                   # Construction and execution methodology
+└── README.md                    # Repository overview
 
 ---
 
