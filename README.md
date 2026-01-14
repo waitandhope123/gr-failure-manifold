@@ -257,6 +257,8 @@ This lab is most useful for readers who already know GR and want to understand *
 
 ---
 
+## Repository Contents
+```text
 GR-Toy-Lab/
 ├── SPECULATION/                 # Speculative framework and evidence corpus
 │   ├── 00-OVERVIEW.md
@@ -283,6 +285,7 @@ GR-Toy-Lab/
 ├── LICENSE                      # License information
 ├── PROCESS.md                   # Construction and execution methodology
 └── README.md                    # Repository overview
+```
 
 ---
 
