@@ -681,3 +681,54 @@ Near-horizon comparison:
     python toy_080_firewall_complementarity_violation.py \
       --observer static,infalling \
       --r 2.1,2.01,2.001
+
+## Toys 081–085 — Global Theorems, EFT Boundaries, and Meta-Structure
+
+### Toy 081 — Positive Mass Theorem boundary
+    python toy_081_positive_mass_theorem_boundary.py
+
+Optional topology / case sweep:
+    python toy_081_positive_mass_theorem_boundary.py \
+      --case schwarzschild_positive,schwarzschild_negative,flat_torus
+
+---
+
+### Toy 082 — Swampland Distance Conjecture boundary
+    python toy_082_swampland_distance_conjecture_boundary.py
+
+Field excursion sweep:
+    python toy_082_swampland_distance_conjecture_boundary.py \
+      --phi_max 1,2,3,4,5 \
+      --alpha 0.5
+
+---
+
+### Toy 083 — SYK/AdS geometry emergence threshold
+    python toy_083_syk_ads_emergence_threshold.py
+
+Coupling and system-size sweep:
+    python toy_083_syk_ads_emergence_threshold.py \
+      --N 16,24,32 \
+      --q 4 \
+      --beta 5,10,20
+
+---
+
+### Toy 084 — Final-state obfuscation (Page curve + postselection)
+    python toy_084_final_state_obfuscation.py
+
+Alternative final-state postselection:
+    python toy_084_final_state_obfuscation.py \
+      --final_state random,maximally_entangled
+
+---
+
+### Toy 085 — Cross-phase comparator (failure density & phase structure)
+    python toy_085_cross_phase_comparator.py
+
+Explicit toy list:
+    python toy_085_cross_phase_comparator.py \
+      --inputs toy_081_positive_mass_theorem_boundary.json \
+              toy_082_swampland_distance_conjecture_boundary.json \
+              toy_083_syk_ads_emergence_threshold.json \
+              toy_084_final_state_obfuscation.json
