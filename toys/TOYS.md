@@ -687,9 +687,25 @@ Test-suite sanity check.
 
 ---
 
-### Toy 50 — Cross-toy comparator
-- **Status**: NOT EXECUTED  
-- Declared only; no results present
+### Toy 50 — Cross-toy automated comparator (meta-instrumentation)
+- **Status**: EXECUTED
+- Failure Trigger: meta (benchmarking / regression)
+- Failure Mode: operational_undefined
+- Sharpness: contextual
+- Repairable: yes
+- **Observed Results**:
+  - Successfully loads and validates canonical JSON schema across toys
+  - Aligns sample points conservatively using explicit coordinate keys
+  - Compares shared numeric invariants when names and locations match
+  - Correctly reports:
+    - zero numeric checks when quantities are not semantically aligned
+    - full pass when identical outputs are compared
+  - Flags missing schema keys and mismatched sample grids without guessing
+
+Toy 50 introduces **instrumentation**, not new physics.  
+It converts the toy suite into a **testable benchmark platform**.
+
+*Kills “toy coverage can be assessed qualitatively or by narrative alone.”*
 
 ---
 
@@ -1097,7 +1113,7 @@ Local data ≠ global state.
 - Failure Trigger: observer + state
 - Failure Mode: observer_disagreement
 - Sharpness: sharp
-- Repairable: no
+- Repairable: only_by_reinterpretation
 - **Observed Results**:
   - Static observers see diverging near-horizon energy density
   - Infalling observers expect vacuum
@@ -1136,6 +1152,88 @@ The failure manifold **does not close** under:
 - relational time emergence (Toy 78)
 - thermodynamic time definitions (Toy 79)
 - black hole complementarity (Toy 80)
+
+## Phase XIII — Global Theorems, EFT Boundaries, and Meta-Structure
+
+### Toy 81 — Positive Mass Theorem boundary (hypothesis failure)
+- Failure Trigger: global (topology / completeness)
+- Failure Mode: operational_undefined
+- Sharpness: sharp
+- Repairable: no
+- Observed Results:
+  - Schwarzschild M>0: proper radial distance to r=2M diverges as r→2M⁺, satisfying geodesic completeness assumptions
+  - Negative-mass Schwarzschild: finite proper distance to r=0 naked singularity (geodesic incompleteness)
+  - Flat torus T³: curvature invariants vanish identically, but ADM mass is undefined (no asymptotic region)
+  - No example exhibits negative energy while satisfying PMT hypotheses
+
+Positivity is conditional, not universal.  
+Kills “positive mass is a local or unconditional property of GR.”
+
+---
+
+### Toy 82 — Swampland Distance Conjecture boundary (GR as EFT)
+- Failure Trigger: state (EFT validity)
+- Failure Mode: operational_undefined
+- Sharpness: thick
+- Repairable: no
+- Observed Results:
+  - Scalar field excursions cause exponential descent of a tower mass scale m(φ)
+  - Species-bound proxy lowers the effective cutoff Λ_eff(φ) monotonically
+  - For executed parameters, Λ_eff > κ and no breakdown is triggered
+  - EFT validity is parameter-dependent and terminates when cutoff falls below physical scales
+
+Classical GR fails by losing predictivity, not by geometric singularity.  
+Kills “smooth geometry guarantees validity of GR.”
+
+---
+
+### Toy 83 — SYK/AdS geometry emergence threshold (entanglement proxy)
+- Failure Trigger: state (entanglement structure)
+- Failure Mode: operational_undefined
+- Sharpness: contextual
+- Repairable: no
+- Observed Results:
+  - Strong coupling improves conformal two-point function fits, but not sufficiently
+  - Ground-state half-system entanglement fractions remain well below maximal
+  - No parameter set satisfies both conformal stability and high-entanglement thresholds
+  - Emergent-geometry proxy remains false for all executed cases
+
+Correlators alone do not define geometry.  
+Kills “AdS geometry follows automatically from SYK-like dynamics.”
+
+---
+
+### Toy 84 — Final-state obfuscation (Page curve + boundary sensitivity)
+- Failure Trigger: state + observer
+- Failure Mode: predictability_loss
+- Sharpness: thick
+- Repairable: only_by_reinterpretation
+- Observed Results:
+  - Radiation entropy rises and saturates in a Page-curve-like manner
+  - Mutual information between radiation and reference increases after mid-evaporation
+  - Postselected final states yield drastically different radiation density matrices
+    - Trace distance between final-state choices ≈ 0.87
+  - Postselection success probabilities are small but nonzero
+
+Unitarity does not guarantee operational predictability.  
+Kills “unitary evolution uniquely determines observable outcomes.”
+
+---
+
+### Toy 85 — Cross-phase comparator (failure density & phase structure)
+- Failure Trigger: meta (benchmarking)
+- Failure Mode: operational_undefined
+- Sharpness: contextual
+- Repairable: yes
+- Observed Results:
+  - All executed toys pass schema consistency checks
+  - Null / undefined fractions vary significantly across toys
+  - Failure modes cluster by phase, not by toy complexity
+  - Absence of explicit machine-readable failure tags limits resolution
+
+Failure structure requires instrumentation, not intuition.  
+Kills “toy coverage can be assessed qualitatively.”
+
 
 **This lab does not argue against General Relativity.  
 It shows precisely where it becomes an effective description —  
