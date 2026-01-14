@@ -1,4 +1,4 @@
-# GR Toy Lab Speculation: Spacetime as Emergent Phenomenon
+# GR Toy Lab Speculation: Spacetime as Emergent Phenomenon (Created by Claude using ChatGPT Toy Model Results)
 
 ## What Is This?
 
