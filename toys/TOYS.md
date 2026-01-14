@@ -1,4 +1,4 @@
-# GR Toy Lab — Complete Toy Index (Executed Results Aligned)
+# GR Toy Lab — Complete Toy Index (Executed Results Aligned) (Created by ChatGPT)
 
 Each toy is a **pressure test**.  
 Each entry explicitly records **what breaks, how it breaks, and why it matters**, augmented with **observed results from executed runs**.
