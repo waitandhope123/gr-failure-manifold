@@ -171,22 +171,36 @@ This lab is most useful for readers who already know GR and want to understand *
 ---
 
 ## Repository Contents
-
 ```text
 GR-Toy-Lab/
+├── SPECULATION/                 # Speculative framework (retained)
+│   ├── README.md                # Complete navigation and overview
+│   ├── 00-OVERVIEW.md           # Executive summary
+│   ├── 01-INTERPRETATIONS.md   # A1/A2/B interpretations
+│   ├── 02-ENERGY-EVIDENCE.md   # Energy emergence evidence
+│   ├── 03-GEOMETRY-EVIDENCE.md # Geometry underdetermination
+│   ├── 04-OBSERVER-EVIDENCE.md # Observer-dependence evidence
+│   ├── 05-QUANTUM-BREAKDOWN.md # Quantum observer ontology
+│   ├── 06-PHASE-XIII-EVIDENCE.md # Global theorems & EFT evidence
+│   ├── 07-ANALOGIES.md         # Thermodynamics parallel
+│   ├── 08-IMPLICATIONS.md      # Research implications
+│   ├── 09-CONFIDENCE.md        # Evidence strength assessment
+│   ├── 10-NATURE-OF-REALITY.md # Philosophical synthesis
+│   ├── SPECULATION_v1_64.md    # Legacy: Through Phase X
+│   ├── SPECULATION_v1_70.md    # Legacy: Through Phase XI
+│   └── SPECULATION_v1_80.md    # Legacy: Through Phase XII
 ├── toys/                        # Toy implementations and outputs
 │   ├── py.zip                   # All 90 Python source files
 │   ├── json.zip                 # All 90 JSON output files
 │   ├── logs.zip                 # All execution logs
 │   ├── COMMANDS.md              # Execution commands / usage
 │   ├── README.md                # Toys folder overview
-│   ├── TOYS.md                  # Complete toy index with descriptions
+│   ├── TOYS_LEGACY.md           # Legacy toy index
 │   └── TOY_PROTOCOL.md          # Toy-specific execution protocol
 ├── LICENSE                      # MIT License
 ├── PROCESS.md                   # Construction and execution methodology
 └── README.md                    # This file
 ```
-
 ---
 
 ## End state
