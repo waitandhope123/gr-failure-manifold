@@ -190,6 +190,28 @@ GR-Toy-Lab/
 │   ├── SPECULATION_v1_64.md    # Legacy: Through Phase X
 │   ├── SPECULATION_v1_70.md    # Legacy: Through Phase XI
 │   └── SPECULATION_v1_80.md    # Legacy: Through Phase XII
+├── docs/                        # 📚 Complete toy documentation (NEW in v1.1.6)
+│   ├── README.md                # Documentation landing page
+│   ├── toys/                    # 13 phase files with full descriptions
+│   │   ├── phase_01_foundations_and_baselines.md
+│   │   ├── phase_02_horizons_and_coordinates.md
+│   │   ├── phase_03_kerr_and_rotation.md
+│   │   ├── phase_04_exotic_spacetimes_and_consistency.md
+│   │   ├── phase_05_observers_and_measurement_scales.md
+│   │   ├── phase_06_singularities_and_global_structure.md
+│   │   ├── phase_07_self-force_and_backreaction.md
+│   │   ├── phase_08_numerical_methods_and_validation.md
+│   │   ├── phase_09_boundaries_and_relational_physics.md
+│   │   ├── phase_10_semiclassical_and_quantum_fields.md
+│   │   ├── phase_11_quantum_observers_and_emergent_causality.md
+│   │   ├── phase_12_holography_and_emergence.md
+│   │   └── phase_13_formulation_health_and_topology.md
+│   ├── indices/                 # Navigation indices
+│   │   ├── by_spacetime.md
+│   │   ├── by_toy_number.md
+│   │   └── quick_reference.md
+│   └── guides/                  # User guides
+│       └── getting_started.md
 ├── toys/                        # Toy implementations and outputs
 │   ├── py.zip                   # All 90 Python source files
 │   ├── json.zip                 # All 90 JSON output files
@@ -198,11 +220,6 @@ GR-Toy-Lab/
 │   ├── README.md                # Toys folder overview
 │   ├── TOYS_LEGACY.md           # Legacy toy index
 │   └── TOY_PROTOCOL.md          # Toy-specific execution protocol
-├── docs/                        # 📚 Complete toy documentation (NEW)
-│   ├── README.md                # Documentation landing page
-│   ├── toys/                    # 13 phase files with full descriptions
-│   ├── indices/                 # Navigation indices
-│   └── guides/                  # User guides
 ├── LICENSE                      # MIT License
 ├── PROCESS.md                   # Construction and execution methodology
 └── README.md                    # This file
