@@ -83,9 +83,38 @@ All executed toys include **machine-readable JSON outputs** encoding observed re
 
 ---
 
-## v1.1.6: Complete Redescription + 5 New Toys
+## v1.1.7: Documentation Complete + Process Transparency
 
 **New in this release:** 
+
+### Three Critical Documentation Guides Added
+v1.1.7 completes the documentation with essential interpretation resources:
+
+1. **JSON Interpretation Guide** (`json_interpretation.md`, 17KB)
+   - Complete schema explanation with field-by-field meanings
+   - Pattern recognition for coordinate artifacts vs physical effects
+   - Scaling law verification and diagnostic workflows
+   - Red flags: what NOT to conclude
+
+2. **Common Pitfalls Guide** (`common_pitfalls.md`, 22KB)
+   - 27 catalogued misinterpretations with explicit wrong/right examples
+   - Organized by category: coordinates, observers, energy, quantum, numerics
+   - Golden rules checklist for proper interpretation
+
+3. **Failure Mode Index** (`by_failure_mode.md`, 12KB)
+   - All 90 toys organized by conceptual failure type (20 categories)
+   - Find toys by what breaks, not which spacetime
+   - Enables research by failure pattern
+
+### Process & Workflow Documentation
+- **MAKE.md** — Complete documentation generation specification
+- **PROCESS.md** — Rebuilt with full workflow transparency
+  - ChatGPT, Claude, and Perplexity roles clearly separated
+  - Validation responsibilities clarified
+  - Division of labor table included
+
+### v1.1.6 Foundation
+All features from v1.1.6 remain: 
 
 ### Complete Documentation Overhaul
 All 90 toys have been **completely redescribed** with comprehensive documentation including:
@@ -231,7 +260,7 @@ GR-Toy-Lab/
 
 ---
 
-**Note:** The `SPECULATION/` folder contains interpretive analysis and emergence hypotheses from versions 1.1.2–1.1.5. It is retained for historical reference but is not being updated for v1.1.6. The current release focuses on comprehensive toy documentation without interpretive claims.
+**Note:** The `SPECULATION/` folder contains interpretive analysis and emergence hypotheses from versions 1.1.2–1.1.5. It is retained for historical reference but is not being updated for v1.1.6 or v1.1.7. Current releases focus on comprehensive toy documentation without interpretive claims.
 
 ---
 
@@ -257,6 +286,7 @@ The structure of that failure manifold suggests what kind of theory it is:
 
 ## Version History
 
+- **v1.1.7** — Documentation complete: Added JSON interpretation guide, common pitfalls guide, failure mode index; MAKE.md specification; rebuilt PROCESS.md with full workflow transparency
 - **v1.1.6** — Complete redescription of all 90 toys; 5 new toys (086-090): formulation health, cosmic strings, classical chaos, Birkhoff boundary, PDE hyperbolicity; file reorganization (py.zip, json.zip, logs.zip)
 - **v1.1.5** — Phase XIII (Toys 81-85): Global theorems, EFT boundaries, meta-structure; complete speculation refactor
 - **v1.1.4** — Phase XII (Toys 71-80): Quantum observers & emergent causality
@@ -276,7 +306,7 @@ The structure of that failure manifold suggests what kind of theory it is:
   title   = {GR Failure Manifold: A Diagnostic Test Suite for Classical General Relativity},
   author  = {DeRenzis, Sam},
   year    = {2026},
-  version = {1.1.6},
+  version = {1.1.7},
   url     = {https://github.com/waitandhope123/gr-failure-manifold},
   note    = {Systematic mapping and analysis of general relativity failure modes through 90 computational experiments across 13 phases}
 }
