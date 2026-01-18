@@ -207,11 +207,14 @@ GR-Toy-Lab/
 │   │   ├── phase_12_holography_and_emergence.md
 │   │   └── phase_13_formulation_health_and_topology.md
 │   ├── indices/                 # Navigation indices
+│   │   ├── by_failure_mode.md
 │   │   ├── by_spacetime.md
 │   │   ├── by_toy_number.md
 │   │   └── quick_reference.md
 │   └── guides/                  # User guides
-│       └── getting_started.md
+│       └── common_pitfalls.md
+│       ├── getting_started.md
+│       ├── json_interpretation.md
 ├── toys/                        # Toy implementations and outputs
 │   ├── py.zip                   # All 90 Python source files
 │   ├── json.zip                 # All 90 JSON output files
