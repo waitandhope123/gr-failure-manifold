@@ -400,7 +400,8 @@ Emitters near the horizon:
 ## Toys 041–050 — Verification and Cross-Checks
 
 ### Toy 041 — Coordinate invariance
-    python toy_041_coordinate_invariance.py
+    python toy_041_coordinate_invariance.py --M 1.0 --out toy_041_M1.0.json
+    python toy_041_coordinate_invariance.py --M 1.01 --out toy_041_M1.01.json
 
 ---
 
@@ -445,7 +446,7 @@ Emitters near the horizon:
 ---
 
 ### Toy 050 — Cross-toy comparator
-    python toy_050_compare.py
+    python toy_050_compare.py toy_041_M1.0.json toy_041_M1.01.json
 
 ---
 
