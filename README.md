@@ -175,7 +175,6 @@ This lab is most useful for readers who already know GR and want to understand *
 ```text
 GR-Toy-Lab/
 ├── SPECULATION/                 # ⚠️ LEGACY - Historical speculative framework
-│   ├── README.md                # (Retained for reference, not updated for v1.1.6)
 │   ├── 00-OVERVIEW.md           # Executive summary through v1.1.5
 │   ├── 01-INTERPRETATIONS.md   # A1/A2/B interpretations
 │   ├── 02-ENERGY-EVIDENCE.md   # Energy emergence evidence
@@ -187,11 +186,20 @@ GR-Toy-Lab/
 │   ├── 08-IMPLICATIONS.md      # Research implications
 │   ├── 09-CONFIDENCE.md        # Evidence strength
 │   ├── 10-NATURE-OF-REALITY.md # Philosophical synthesis
+│   ├── README.md                # (Retained for reference, not updated for v1.1.6)
 │   ├── SPECULATION_v1_64.md    # Legacy: Through Phase X
 │   ├── SPECULATION_v1_70.md    # Legacy: Through Phase XI
 │   └── SPECULATION_v1_80.md    # Legacy: Through Phase XII
 ├── docs/                        # 📚 Complete toy documentation (NEW in v1.1.6)
-│   ├── README.md                # Documentation landing page
+│   ├── guides/                  # User guides
+│   │   ├── common_pitfalls.md
+│   │   ├── getting_started.md
+│   │   └── json_interpretation.md
+│   ├── indices/                 # Navigation indices
+│   │   ├── by_failure_mode.md
+│   │   ├── by_spacetime.md
+│   │   ├── by_toy_number.md
+│   │   └── quick_reference.md
 │   ├── toys/                    # 13 phase files with full descriptions
 │   │   ├── phase_01_foundations_and_baselines.md
 │   │   ├── phase_02_horizons_and_coordinates.md
@@ -206,23 +214,16 @@ GR-Toy-Lab/
 │   │   ├── phase_11_quantum_observers_and_emergent_causality.md
 │   │   ├── phase_12_holography_and_emergence.md
 │   │   └── phase_13_formulation_health_and_topology.md
-│   ├── indices/                 # Navigation indices
-│   │   ├── by_failure_mode.md
-│   │   ├── by_spacetime.md
-│   │   ├── by_toy_number.md
-│   │   └── quick_reference.md
-│   └── guides/                  # User guides
-│       └── common_pitfalls.md
-│       ├── getting_started.md
-│       ├── json_interpretation.md
+│   └── README.md                # Documentation landing page
 ├── toys/                        # Toy implementations and outputs
-│   ├── py.zip                   # All 90 Python source files
-│   ├── json.zip                 # All 90 JSON output files
-│   ├── logs.zip                 # All execution logs
 │   ├── COMMANDS.md              # Execution commands / usage
+│   ├── MAKE.md                  # Documentation generation specification
 │   ├── README.md                # Toys folder overview
 │   ├── TOYS_LEGACY.md           # Legacy toy index
-│   └── TOY_PROTOCOL.md          # Toy-specific execution protocol
+│   ├── TOY_PROTOCOL.md          # Toy-specific execution protocol
+│   ├── json.zip                 # All 90 JSON output files
+│   ├── logs.zip                 # All execution logs
+│   └── py.zip                   # All 90 Python source files
 ├── LICENSE                      # MIT License
 ├── PROCESS.md                   # Construction and execution methodology
 └── README.md                    # This file
