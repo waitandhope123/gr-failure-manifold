@@ -1,3 +1,5 @@
+Being updated 1-17-2026 will take time
+
 # GR Failure Manifold (Built by ChatGPT and rewritten by Claude for v1.1.5)
 
 **A diagnostic test suite mapping the limits of classical General Relativity.**
