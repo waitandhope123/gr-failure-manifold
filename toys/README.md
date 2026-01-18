@@ -5,21 +5,21 @@ This directory contains the executed diagnostic artifacts for the **GR Failure M
 ## Contents
 
 ### Documentation
-- **TOYS_LEGACY.md**  
-  Legacy toy index from v1.1.5 with classifications and observed results.
-  *Note: Toy descriptions have been completely rewritten for v1.1.6 and are now in `/docs/`*
 
 - **COMMANDS.md**  
   Exact commands used to execute each toy and generate its JSON output.
+
+- **MAKE.md**  
+  Specification for documentation format
+
+- **TOYS_LEGACY.md**  
+  Legacy toy index from v1.1.5 with classifications and observed results.
+  *Note: Toy descriptions have been completely rewritten for v1.1.6 and are now in `/docs/`*
 
 - **TOY_PROTOCOL.md**  
   Formal protocol defining how each toy is constructed, what constraints it must satisfy, and how results are exported.
 
 ### Implementation & Results (Archives)
-
-- **py.zip** (NEW in v1.1.6)  
-  Archive containing all 90 Python source files (toy_001_*.py through toy_090_*.py).
-  Each implements one computational experiment.
 
 - **json.zip** (NEW in v1.1.6)  
   Archive containing all 90 JSON output files (toy_001_*.json through toy_090_*.json).
@@ -27,6 +27,10 @@ This directory contains the executed diagnostic artifacts for the **GR Failure M
 
 - **logs.zip** (NEW in v1.1.6)  
   Archive containing execution logs for all toys.
+
+- **py.zip** (NEW in v1.1.6)  
+  Archive containing all 90 Python source files (toy_001_*.py through toy_090_*.py).
+  Each implements one computational experiment.
 
 ## What Changed in v1.1.6
 
