@@ -171,20 +171,21 @@ This lab is most useful for readers who already know GR and want to understand *
 ---
 
 ## Repository Contents
+
 ```text
 GR-Toy-Lab/
-├── SPECULATION/                 # Speculative framework (retained)
-│   ├── README.md                # Complete navigation and overview
-│   ├── 00-OVERVIEW.md           # Executive summary
+├── SPECULATION/                 # ⚠️ LEGACY - Historical speculative framework
+│   ├── README.md                # (Retained for reference, not updated for v1.1.6)
+│   ├── 00-OVERVIEW.md           # Executive summary through v1.1.5
 │   ├── 01-INTERPRETATIONS.md   # A1/A2/B interpretations
 │   ├── 02-ENERGY-EVIDENCE.md   # Energy emergence evidence
 │   ├── 03-GEOMETRY-EVIDENCE.md # Geometry underdetermination
 │   ├── 04-OBSERVER-EVIDENCE.md # Observer-dependence evidence
 │   ├── 05-QUANTUM-BREAKDOWN.md # Quantum observer ontology
-│   ├── 06-PHASE-XIII-EVIDENCE.md # Global theorems & EFT evidence
+│   ├── 06-PHASE-XIII-EVIDENCE.md # Global theorems & EFT
 │   ├── 07-ANALOGIES.md         # Thermodynamics parallel
 │   ├── 08-IMPLICATIONS.md      # Research implications
-│   ├── 09-CONFIDENCE.md        # Evidence strength assessment
+│   ├── 09-CONFIDENCE.md        # Evidence strength
 │   ├── 10-NATURE-OF-REALITY.md # Philosophical synthesis
 │   ├── SPECULATION_v1_64.md    # Legacy: Through Phase X
 │   ├── SPECULATION_v1_70.md    # Legacy: Through Phase XI
@@ -197,10 +198,20 @@ GR-Toy-Lab/
 │   ├── README.md                # Toys folder overview
 │   ├── TOYS_LEGACY.md           # Legacy toy index
 │   └── TOY_PROTOCOL.md          # Toy-specific execution protocol
+├── docs/                        # 📚 Complete toy documentation (NEW)
+│   ├── README.md                # Documentation landing page
+│   ├── toys/                    # 13 phase files with full descriptions
+│   ├── indices/                 # Navigation indices
+│   └── guides/                  # User guides
 ├── LICENSE                      # MIT License
 ├── PROCESS.md                   # Construction and execution methodology
 └── README.md                    # This file
 ```
+
+---
+
+**Note:** The `SPECULATION/` folder contains interpretive analysis and emergence hypotheses from versions 1.1.2–1.1.5. It is retained for historical reference but is not being updated for v1.1.6. The current release focuses on comprehensive toy documentation without interpretive claims.
+
 ---
 
 ## End state
